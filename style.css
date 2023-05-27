@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+    font-family: sans-serif;
+    outline: none;
+}
+
+body{
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border: 30px solid #234f6c;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container h1{
+    font-size: 63px;
+    margin-bottom: 40px;
+    color: #222953;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px 1px hwb(232 55% 18%) ;
+    
+}
+.container h1:hover{
+    transform: scale(1.2);
+    transition-duration: 1.4s;
+    text-shadow: 0 0 5px red,
+    0 0 10px red,
+    0 0 15px blue,
+    2px 2px 16px blue;
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.top{
+    background-color: rgb(219, 240, 251);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: inset 3px 3px 5px white,
+    4px 4px 1px rgb(39, 39, 39);
+    display: grid;
+    grid-template-columns: repeat(4,65px);
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: rgb(202, 220, 250);
+    box-shadow: inset 3px 3px 5px white,
+    3px 3px 5px rgb(113, 112, 112);
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 15px;
+    margin-left: 19%;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color:rgb(126, 187, 252) ;
+    cursor: pointer;
+ 
+}
+
+input{
+    height: 50px;
+    width: 260px;
+    background-color: rgb(202, 220, 250);
+    box-shadow: inset -4px -4px 6px white,
+    inset 4px 4px 6px rgb(65, 65, 65);
+    grid-column: span 4;
+    border: none;
+    border-radius: 10px;
+    color: rgb(16, 18, 53);
+    font-size: 25px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-right: 5%;
+   
+}
+
+
+.Eq{
+    width: 106px;
+    background-color: rgb(180, 180, 255);
+}
+.Eq:hover{
+    
+    background-color: rgb(116, 78, 252);
+    color: white;
+    font-size: 30px;
+    box-shadow:inset 3px 3px 3px rgb(160, 160, 244) ;
+}
+.red{
+    background-color: rgb(252, 190, 190);
+}
+.red:hover{
+    background-color: rgb(249, 95, 95);
+    color: white;
+    
+}
+
+.yellow{
+    background-color: rgb(251, 251, 203);
+}
+.yellow:hover{
+    background-color: rgb(234, 234, 5);
+
+}
